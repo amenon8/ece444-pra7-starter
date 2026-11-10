@@ -11,3 +11,7 @@ def record(value, history=None):
 
 def is_missing(value):
     return value is None
+
+
+def broken_total(values):
+    return sum(values)
